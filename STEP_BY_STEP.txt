@@ -1,0 +1,32 @@
+STEP-BY-STEP PROCEDURE
+
+1. Download the ZIP.
+2. Extract it.
+3. Open VS Code.
+4. Click File → Open Folder.
+5. Select Week2_Node_Express_BeTechified.
+6. Confirm that server.js is visible in the Explorer.
+7. Click Terminal → New Terminal.
+8. Run: npm install
+9. Run: npm run dev
+10. Open Chrome.
+11. Enter: http://localhost:3000
+12. You should see "Node.js & Express Basics".
+13. Test: http://localhost:3000/api
+14. Test: http://localhost:3000/api/students
+15. Use Postman to test POST /api/students.
+
+IF YOU GET "CANNOT FIND MODULE":
+Check the terminal folder. It must be the same folder that contains server.js.
+
+You can run:
+cd Week2_Node_Express_BeTechified
+npm run dev
+
+If nodemon is not recognized, run:
+npm install
+Then:
+npm run dev
+
+If port 3000 is busy, change PORT in .env to 3001 and open:
+http://localhost:3001
